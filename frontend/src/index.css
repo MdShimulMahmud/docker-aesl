@@ -1,0 +1,5 @@
+@tailwind base;    /* Tailwind's base styles (resets and global styles) */
+@tailwind components; /* Tailwind's reusable component styles */
+@tailwind utilities;  /* Tailwind's utility classes */
+
+/* Add custom global styles below if needed */

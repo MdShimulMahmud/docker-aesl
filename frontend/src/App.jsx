@@ -2,6 +2,8 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+import "./assets/css/styles.css";
+
 const API_URL = "http://localhost:5000/todos";
 
 const App = () => {

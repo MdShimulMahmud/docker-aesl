@@ -12,6 +12,15 @@ services:
       context: ./frontend
       dockerfile: dockerfile
     ports:
-      - "8080:8080"
+      - "80:80"
     depends_on:
+      - backend
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - frontend
       - backend
